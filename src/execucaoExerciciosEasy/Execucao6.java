@@ -16,6 +16,5 @@ public class Execucao6 {
 
         Exercicio6 exercicio6 = new Exercicio6();
         System.out.println(exercicio6.calculaMedia(nota1, nota2));        
-    } 
-    
+    }     
 }
