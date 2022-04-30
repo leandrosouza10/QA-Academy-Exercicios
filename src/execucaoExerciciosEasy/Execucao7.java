@@ -12,6 +12,5 @@ public class Execucao7 {
         Exercicio7 exercicio7 = new Exercicio7();
         System.out.println("O valor do Inss para o salário R$ " + salario + " será de R$ " + exercicio7.calculaInss(salario));
 
-    }
-    
+    }    
 }
