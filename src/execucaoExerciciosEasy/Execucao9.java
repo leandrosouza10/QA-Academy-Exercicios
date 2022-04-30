@@ -11,6 +11,5 @@ public class Execucao9 {
         Exercicio9 exercicio9 = new Exercicio9();
         exercicio9.tabuada(numeroDigitado);
 
-    }
-    
+    }    
 }
