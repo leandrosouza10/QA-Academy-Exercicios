@@ -11,6 +11,5 @@ public class Execucao8 {
         double ir = exercicio8.calculaImpostoDeRenda(salario);
        System.out.println("O salário liquido será de R$ " + exercicio8.calculaSalarioLiquido(salario,ir));
        
-    }
-    
+    }    
 }
