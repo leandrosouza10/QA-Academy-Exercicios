@@ -26,9 +26,7 @@ public class Execucao5 {
     int soma = exercicio5.soma(primeiroNumero, segundoNumero, terceiroNumero);
     System.out.println("A media será: " + exercicio5.media(soma));
 
-    }
-    
-       
+    }      
         
 }    
 
