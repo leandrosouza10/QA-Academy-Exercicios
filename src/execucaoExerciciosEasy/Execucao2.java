@@ -1,4 +1,4 @@
-package execucaoRetornoExerciciosEasy;
+package execucaoExerciciosEasy;
 
 import easy. Exercicio2 ;
 

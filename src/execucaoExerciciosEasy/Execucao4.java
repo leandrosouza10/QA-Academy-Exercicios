@@ -1,4 +1,4 @@
-package execucaoRetornoExerciciosEasy;
+package execucaoExerciciosEasy;
 
 import javax.swing.JOptionPane;
 
