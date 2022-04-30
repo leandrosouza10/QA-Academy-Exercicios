@@ -15,8 +15,7 @@ public class Execucao3 {
        
        System.out.println(exercicio3.valoresTrocados(primeiroValor, segundoValor));//faço a chamada e o valor
         
-     
-       
+            
     }
     
 }
