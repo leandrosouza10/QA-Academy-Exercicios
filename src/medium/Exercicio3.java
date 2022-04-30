@@ -1,7 +1,7 @@
 package medium;
 
 public class Exercicio3 {
-    public static void main(String[] args) {
+    public void somaNumeroAcumulado() {
 
         int i = 0, soma = 0;
         
@@ -10,11 +10,14 @@ public class Exercicio3 {
 
             soma = soma + i;
             System.out.println(soma);
-            if (soma >= 1500) {
-                break;
-            }
             i++;
-        }
-    }
+            if (soma >= 1500) {
+                break; // finaliza while (Enquanto)
+            } // fecha if (Se)
+            
 
-}
+        } //while
+
+    }// fecha main
+
+}// fecha classe
