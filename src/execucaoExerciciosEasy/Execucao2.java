@@ -7,8 +7,7 @@ public class Execucao2 {
             Exercicio2 exercicio2 = new Exercicio2();
             String palavra = exercicio2.palavraDigitada("Humanos");
             System.out.println(palavra);            
-        }   
-        
+        }           
     }
     
     
