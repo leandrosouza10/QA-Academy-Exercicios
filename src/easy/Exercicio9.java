@@ -1,25 +1,18 @@
 package easy;
 
-import javax.swing.JOptionPane;
+
 
 public class Exercicio9 {
-    public static void main(String[] args) {
+    public void tabuada(int numeroDigitado) {
         
-        int numero, i;
+        int i =1, resultado;
 
-        numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número"));
-        
-        for(i =1 ; i <=10 ; i++){
-         System.out.println(numero + " X " + i + " = " + numero * i);
-
+        while (i <= 10) {     
+            resultado = numeroDigitado * i;
+            System.out.println(numeroDigitado + " X " + i + " = " + resultado);
+           i++; // soma do i +1 para entrar em loop infinito
         }
+        
 
-        // while (i <= 10) {
-        //     System.out.println(numero + " X " + i + " = " + numero * i);
-        //     i++;
-        // }
-
-    }
-
-    
+    }    
 }
