@@ -3,19 +3,26 @@ package medium;
 import javax.swing.JOptionPane;
 
 public class Exercicio5 {
-    public static void main(String[] args) {
-        int numeroDigitado, menorNumero = 0, i = 1;
+    public int verificaMenorNumero() {
+         int numeroDigitado;
+         int menorNumero = 0, i = 1;        
 
-        while (i <= 5) {
-            numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um número: "));
-            System.out.println(numeroDigitado);
+        while (i <= 5) {    
+            numeroDigitado = lerNumeroDigitado();     
+          
             if (numeroDigitado < menorNumero || i == 1) {
                 menorNumero = numeroDigitado;
             }
             i++;
-        }
-        System.out.println("O menor número digitado é: " + menorNumero);
+        }       
+        return menorNumero;
 
+    }
+
+    private int lerNumeroDigitado() {
+        String numeroDigitadoString = JOptionPane.showInputDialog("Digite um número: ");
+        int numeroDigitado = Integer.parseInt(numeroDigitadoString);
+        return numeroDigitado;
     }
 
 }
