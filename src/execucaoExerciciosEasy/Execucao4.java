@@ -10,7 +10,6 @@ public class Execucao4 {
     int numeroDigitado = Integer.parseInt(numeroDigitadoUsuario);
     Exercicio4 exercicio4 =  new Exercicio4();
     System.out.println("O dobro de " + numeroDigitado + " = " + exercicio4.calcularDobro(numeroDigitado));  
-
         
     }
     
